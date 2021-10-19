@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 :root {
-  --colorPrimary: rgba(196, 113, 19, 0.897);
+  --colorPrimary: #e49b05;
 }
 
 /*comun*/
@@ -24,4 +24,12 @@ body {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.container {
+  margin :30px; 
+  height: 80vh;
+  background: rgba(255, 249, 249, 0.05);
+  border: 4px solid rgba(255, 255, 255, 0.07);
+  border-radius: 38px;
+
 }
