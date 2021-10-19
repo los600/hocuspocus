@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 :root {
-  --colorPrimary: rgba(141, 248, 54, 0.897);
+  --colorPrimary: rgba(196, 113, 19, 0.897);
 }
 
 /*comun*/
@@ -21,4 +21,7 @@ body {
   height: 100vh;
   width: 100%;
   font-family: "Roboto", sans-serif;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
