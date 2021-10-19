@@ -3,3 +3,22 @@
 @import "_footer.css";
 @import "_header.css";
 @import "_layout.css";
+
+:root{
+    --colorPrimary:rgba(141, 248, 54, 0.897);
+}
+  
+
+
+/*comun*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+};
+
+body{
+    height: 100vh;
+    width: 100%;
+};
