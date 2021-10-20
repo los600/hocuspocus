@@ -1,23 +1,36 @@
+<<<<<<< HEAD
 .banner__img{
     height: 50px;
     width: 50px;
     border-radius: 20px;
     margin-left: 742px;
+=======
+>>>>>>> aa039efa6b59eb902e2088f991065ea9556b8774
 
-}
-.banner__info{
-    text-align: start;
-    width: 25%;
-    line-height: 1.4rem; 
+
+.banner{
+    padding-left: 30px;
+    color:rgba(255, 255, 255, 0.637);
+    padding: 10px;
     display: flex;
-    background-color: red;
+    justify-content: flex-start;
+    max-width: 90%;
+}
+
+.banner__info{
+    padding: 25px;
+    text-align: start;
+    width: 40%;
+    line-height: 1.4rem;    
 }
 .banner__icons{
+    padding-left: 30px;
     display: flex;
-    flex-direction: row;
-    width: 2.2rem;
+    flex-direction: column;
+    width: 10%;
     margin: 1rem;
 }
+<<<<<<< HEAD
 .banner img{
     display: flex;
     height: 37px;
@@ -30,3 +43,23 @@
     
 
 }
+=======
+
+.banner__icons-gluten {
+    width: 50px;
+}
+.banner__icons-sugar{
+    width: 50px;
+}
+.banner__icons-lactose{
+    width: 32px;
+    margin-left: 12px;
+}
+.banner__img {
+    width: 50%;
+  
+}
+.banner__img:hover {filter: grayscale(80%);}
+
+.banner__img:hover {filter: grayscale(80%);}
+>>>>>>> aa039efa6b59eb902e2088f991065ea9556b8774
