@@ -27,6 +27,7 @@ body {
   background-repeat: no-repeat;
 }
 .container {
+  position: absolute;
   margin :30px; 
   height: 80vh;
   background: rgba(255, 249, 249, 0.05);

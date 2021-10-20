@@ -1,4 +1,7 @@
-
+h1{
+    margin-bottom:20px;
+    border-bottom:solid 1px white;
+}
 
 .banner{
     padding-left: 30px;
@@ -12,7 +15,7 @@
 .banner__info{
     padding: 25px;
     text-align: start;
-    width: 40%;
+    width: 36%;
     line-height: 1.4rem;    
 }
 .banner__icons{
@@ -22,7 +25,11 @@
     width: 10%;
     margin: 1rem;
 }
-
+span{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
 .banner__icons-gluten {
     width: 50px;
 }
