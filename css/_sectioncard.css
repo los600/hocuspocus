@@ -1,10 +1,10 @@
-.cakeShow{
+.cakeShow {
   min-height: 298px;
   max-height: 940px;
   display: flex;
   justify-content: space-around;
-  
-
+  margin-top: 60px;
+  flex-wrap: wrap;
 }
 
 .cakeShow__card {
@@ -35,9 +35,9 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-      "nombre info1"
-      "peso add1"
-      "precio precio";
+    "nombre info1"
+    "peso add1"
+    "precio precio";
 }
 
 .nombre {
@@ -74,8 +74,9 @@
   grid-area: info1;
 }
 
-@media(max-width: 463px){
-  .cakeShow{
-   margin-top:89px;
+@media (max-width: 463px) {
+  .cakeShow {
+    margin-top: 89px;
+    flex-direction: column;
   }
 }
