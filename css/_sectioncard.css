@@ -1,0 +1,81 @@
+.cakeShow{
+  min-height: 298px;
+  max-height: 940px;
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+.cakeShow__card {
+  height: 298px;
+  width: 213px;
+  margin: 15px;
+  padding: 16px;
+  background: rgba(221, 209, 209, 0.16);
+  border: 1px solid rgba(242, 125, 17, 0.16);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.carta-imagen {
+  width: 172px;
+  height: 191px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  margin: 5px;
+  display: grid;
+  grid-gap: -4px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+      "nombre info1"
+      "peso add1"
+      "precio precio";
+}
+
+.nombre {
+  text-align: left;
+  color: #cac5c5;
+  grid-area: nombre;
+}
+
+.precio {
+  text-align: left;
+  color: #cac5c5;
+  grid-area: precio;
+}
+
+.peso {
+  text-align: left;
+  color: #cac5c5;
+  grid-area: peso;
+}
+
+.addbutton {
+  background-color: #f27d11;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: #cac5c5;
+  grid-area: add1;
+}
+
+.infologo {
+  width: 25px;
+  height: 25px;
+  grid-area: info1;
+}
+
+@media(max-width: 463px){
+  .cakeShow{
+   margin-top:89px;
+  }
+}

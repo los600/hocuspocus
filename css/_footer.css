@@ -8,19 +8,25 @@ footer {
 }
 
 .bottom {
-  
-  margin-left: 90px;
+  margin-top: 9px;
+  margin-left: 80px;
   font-size: 10px;
   color: white;
-  margin-top: 40px;
+  
 }
-
+.below{
+  margin-top:53px;
+}
 .belowsocialmedia {
+  
   color: #e46905;
   padding-right: 30px;
   font-size: 30px;
   text-decoration: none;
 }
+.lni-instagram-filled{
+  margin-left:100px;
+ }
 
 .belowsocialmedia:hover,
 .belowsocialmedia:focus {
