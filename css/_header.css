@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    height: 210px;
+    padding: 25px;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: auto;
+    height: 300px;
+    margin-top: -67px;
+  }
+  
+  ul {
+    display: flex;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: #e49b05;
+  }
+  
+  .link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .right {
+    display: flex;
+    padding-right: 25px;
+  }
+  
+  .right-link {
+    display: flex;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .right-link:hover,
+  .right-link:focus {
+    color: #e49b05;
+  }
+  
+  .right-link > i {
+    margin-right: 10px;
+    color: #e49b05;
+  }
