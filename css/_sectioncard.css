@@ -8,7 +8,7 @@
 }
 
 .cakeShow__card {
-  height: 298px;
+  height: 320px;
   width: 213px;
   margin: 15px;
   padding: 16px;
@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .information {
@@ -44,18 +45,22 @@
   text-align: left;
   color: #cac5c5;
   grid-area: nombre;
+  font-weight: bold;
 }
 
 .precio {
   text-align: left;
   color: #cac5c5;
   grid-area: precio;
+  font-weight: bold;
 }
 
 .peso {
   text-align: left;
   color: #cac5c5;
   grid-area: peso;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 .addbutton {
@@ -69,9 +74,10 @@
 }
 
 .infologo {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   grid-area: info1;
+  margin-left: 70px;
 }
 
 @media (max-width: 463px) {
